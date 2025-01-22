@@ -1,0 +1,18 @@
+<resources>
+    <!-- Base application theme, set to light theme -->
+    <style name="Base.Theme.Checking" parent="Theme.Material3.Light.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+    </style>
+
+    <style name="Theme.Checking" parent="Base.Theme.Checking" />
+
+    <style name="Theme.Checking.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.Checking.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.Checking.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

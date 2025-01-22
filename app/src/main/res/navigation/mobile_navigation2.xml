@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation2"
+    app:startDestination="@+id/teacherhome">
+
+    <fragment
+        android:id="@+id/teacherhome"
+        android:name="com.app.checking.ui.home.HomeTAFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home_ta" />
+
+    <fragment
+        android:id="@+id/addStudentTch"
+        android:name="com.app.checking.ui.addStudent.addStudentFragment"
+        android:label="@string/addStd"
+        tools:layout="@layout/fragment_add_student" />
+    <fragment
+        android:id="@+id/teachermessages"
+        android:name="com.app.checking.ui.main.messagesTeacher.MessagesTeacherFragment"
+        android:label="@string/messages"
+        tools:layout="@layout/fragment_messages_teacher" />
+
+    <fragment
+        android:id="@+id/resetpassteacher"
+        android:name="com.app.checking.ui.main.TeacherReset.TeacherResetFragment"
+        android:label="@string/resetpass"
+        tools:layout="@layout/fragment_teacher_reset" />
+</navigation>

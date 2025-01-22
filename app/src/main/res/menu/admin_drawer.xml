@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="@string/home" />
+        <item
+            android:id="@+id/addStudentnTeacher"
+            android:icon="@drawable/add"
+            android:title="Assign" />
+<!--        <item-->
+<!--            android:id="@+id/addTeacher"-->
+<!--            android:icon="@drawable/add"-->
+<!--            android:title="@string/addTeacher" />-->
+        <item
+            android:id="@+id/messages"
+            android:icon="@drawable/message"
+            android:title="@string/messages" />
+        <item
+            android:id="@+id/resetpassAdmin"
+            android:icon="@drawable/reset"
+            android:title="@string/resetpass" />
+        <item
+            android:id="@+id/logout"
+            android:icon="@drawable/logout"
+            android:title="@string/logout" />
+
+
+    </group>
+</menu>

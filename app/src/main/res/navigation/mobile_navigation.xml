@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/home">
+
+        <fragment
+            android:id="@+id/home"
+            android:name="com.app.checking.ui.home.HomeFragment"
+            android:label="@string/home"
+            tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/addStudentnTeacher"
+        android:name="com.app.checking.ui.addstudentnTeacher.AddStudentnTeacherFragment"
+        android:label="Assign"
+        tools:layout="@layout/fragment_add_student_teacher" />
+
+<!--    <fragment-->
+<!--        android:id="@+id/addTeacher"-->
+<!--        android:name="com.app.checking.ui.addTeacher.addTeacherFragment"-->
+<!--        android:label="@string/addTeacher"-->
+<!--        tools:layout="@layout/fragment_add_teacher" />-->
+
+
+    <fragment
+        android:id="@+id/resetpassAdmin"
+        android:name="com.app.checking.ui.ResetPassword.ResetpassFragment"
+        android:label="@string/resetpass"
+        tools:layout="@layout/fragment_reset_pass" />
+    <fragment
+        android:id="@+id/messages"
+        android:name="com.app.checking.ui.messages.messageFragment"
+        android:label="@string/messages"
+        tools:layout="@layout/fragment_message" />
+</navigation>

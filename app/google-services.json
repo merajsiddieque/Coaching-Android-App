@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "1020091215156",
+    "project_id": "winner-classes-5e21d",
+    "storage_bucket": "winner-classes-5e21d.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1020091215156:android:e5d5a670c9514565068961",
+        "android_client_info": {
+          "package_name": "com.app.checking"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCNNDwijxyDV-H2BJ42qMRh7p6NwkCHOow"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

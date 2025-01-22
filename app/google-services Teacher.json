@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "998395215065",
+    "project_id": "winnerclassesteacher",
+    "storage_bucket": "winnerclassesteacher.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:998395215065:android:cc2c885caef11017da92c8",
+        "android_client_info": {
+          "package_name": "com.android.winnerclassesTeacher"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuedvOWPTept9pSq0lVPWZVR8dzQu8qSs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
